@@ -133,10 +133,10 @@
             this.highlightElement(this.line[i])
             i++
           }
-        }, Number(this.ping) + 50)
+        }, Number(Number(this.ping)) + 50)
         setTimeout(() => {
           this.blockCircle = false
-        }, (this.ping) * this.line.length + this.ping + 100)
+        }, (Number(this.ping)) * this.line.length + Number(this.ping) + 100)
       },
 
       endGame() {
