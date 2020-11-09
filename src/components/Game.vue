@@ -55,7 +55,7 @@
       <div class="menu-option">
         <input class
                v-model="muteSound"
-               type="checkbox"> Заглушить звук
+               type="checkbox"> Mute sound
       </div>
     </div>
     <div class="round-counter">
