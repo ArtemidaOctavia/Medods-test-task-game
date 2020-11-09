@@ -198,14 +198,14 @@
   .button
     width: 200px
     height: 200px
-    opacity: 70%
+    opacity: 0.7
 
   .hover:hover
     box-shadow: inset 1px 1px 20px -1px
     cursor: pointer
 
   .hover:active
-    opacity: 100%
+    opacity: 1
 
   .red
     background-color: red
@@ -235,6 +235,6 @@
     clip-path: inset(100px 0px 0px 100px)
 
   .active
-    opacity: 100%
+    opacity: 1
     box-shadow: inset 1px 1px 20px -1px
 </style>
